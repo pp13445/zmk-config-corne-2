@@ -365,11 +365,11 @@ ZMK_LAYER(fn,
 
 ZMK_LAYER(num,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-   &kp  TAB  &kp EXCL       &kp AT       &kp HASH      &kp DLLR       &kp PRCNT     X_MT        &kp CARET    &kp AMPS      &kp ASTRK    &kp UNDER     &kp BSLH     &kp BSPC
+   &kp  TAB  &kp EXCL       &kp AT       &kp HASH      &kp DLLR       &kp PRCNT          &kp CARET    &kp AMPS      &kp ASTRK    &kp UNDER     &kp BSLH     &kp BSPC
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-   &kp LCTRL &kp SEMI     &kp EQUAL   &kp LPAR      &kp RPAR      &kp LBKT          X_MM        &kp RBKT     &kp LBRC      &kp RBRC    &kp DOUBLE_QUOTES &kp SINGLE_QUOTE  &kp GRAVE
+   &kp LCTRL &kp SEMI     &kp EQUAL   &kp LPAR      &kp RPAR      &kp LBKT                 &kp RBKT     &kp LBRC      &kp RBRC    &kp DOUBLE_QUOTES &kp SINGLE_QUOTE  &kp GRAVE
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-      &kp LSHFT &kp COLON      CANCEL           &kp MINUS     &kp PLUS       NAV_DEL       X_MB        &kp MINUS     &kp PLUS      &kp LBRC      &kp RBRC      &kp PIPE     &kp TILDE
+      &kp LSHFT &kp COLON      CANCEL           &kp MINUS     &kp PLUS       NAV_DEL             &kp MINUS     &kp PLUS      &kp LBRC      &kp RBRC      &kp PIPE     &kp TILDE
 //╰──────╯ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ╰──────╯
                                          &kp UNDER     ___           ___              ___           ___           XXX
 //                                     ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯
