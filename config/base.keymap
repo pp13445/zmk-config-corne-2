@@ -329,19 +329,19 @@ ZMK_MACRO(minimize, bindings = <&kp LG(M)>; wait-ms = <0>; tap-ms = <5>;)
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-   SLEEP     &kp Q         &kp W         &kp E         &kp R         &kp T            &kp Y         &kp U         &kp I         &kp O         &kp P           MUTE
+   SLEEP     &kp Q         &kp W         &kp F         &kp P         &kp G            &kp J         &kp L         &kp U         &kp Y         &kp COLON           MUTE
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-   SFT_RET   &hml LCTRL A  &hml LALT S   &hml LGUI D   &hml LSHFT F  &kp G            &kp H         &hmr RSHFT J  &hmr RGUI K   &hmr RALT L   &hmr RCTRL SQT  TOG_NAV
+   SFT_RET   &hml LGUI A  &hml LALT R   &hml LCTRL S   &hml LSHFT T  &kp D            &kp H         &hmr RSHFT N  &hmr RCTRL E   &hmr RALT I   &hmr RGUI O  BSPC
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  WHISPER    &kp Z         &kp X         &kp C         &kp V         &kp B            &kp N         &kp M         &comma_morph  &dot_morph    &kp FSLH       SAVE_SONG
+  WHISPER    &kp Z         &kp X         &kp C         &kp V         &kp B            &kp K         &kp M         &comma_morph  &dot_morph    &kp FSLH       SAVE_SONG
 //╰──────╯ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ╰──────╯
-                                         &lt FN ESC    &lt_spc NAV 0 &lt SYM TAB      &lt SYS RETURN &lt NUM BSPC &smart_shft
+                                         &lt FN ESC    &lt_spc NAV 0 &kp SPACE     &kp RETURN &lt NUM BSPC &smart_shft
 //                                     ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯
 )
 
 ZMK_LAYER(nav,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    XXX      ___           ___           &kp LS(TAB)   &window_swapper ___            ___           ___           NAV_DEL       CANCEL        ___             XXX
+     &kp TAB    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6         &kp N7       &kp N8    &kp N9       &kp N0          XXX
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     XXX      &hml LCTRL LG(LBKT) &hml LALT LG(RBKT) &hml LGUI F5 &hml LSHFT F6 &kp LG(D)   ___           &kp LEFT      &qnav_down    &qnav_up      &kp RIGHT  XXX
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
